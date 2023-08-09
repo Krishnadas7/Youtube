@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color:white;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+   
+}
+.left-section{
+   
+    margin-right: 60px;
+   
+    align-items: center;
+    display: flex;
+    
+}
+.middle-section{
+    margin-right: 30px;
+     flex: 1;
+     max-width: 500px;
+     align-items: center;
+     display: flex;
+    
+}
+.right-section{
+    align-items: center;
+    display: flex;
+   
+     width: 200px;
+    
+}
+.menu-icon{
+  height: 29px;
+  margin-left: 24px;
+  margin-right: 24px;
+  
+}
+.youtube-logo{
+height: 20px;
+}
+.search-bar{
+  flex: 1;
+    height: 32px;
+    border-radius: 3px;
+    background-color: white;
+    padding-left: 8px;
+    border: 1px solid #cccccc;
+}
+.search-button{
+    width: 40px;
+    height: 36px;
+    margin-right: 16px;
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+}
+.voice-search-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 18px;
+    border: 1px;
+    
+}
+.right-elements{
+    width: 40px;
+    height: 40px;
+    margin-right: 13px;
+    border-radius: 20px;
+    color: white;
+    background-color: white;
+    border-color: antiquewhite;
+    border: 1px;
+}
+.profileimage{
+    height: 29px;
+    width: 41px;
+    border-radius: 20px;
+}
